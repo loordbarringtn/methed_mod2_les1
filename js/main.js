@@ -33,3 +33,6 @@ esSixHeader.replaceWith(scopeAndClosureHeaderCloned);
 scopeAndClosureHeader.replaceWith(asyncOptHeaderCloned);
 asyncOptHeader.replaceWith(esSixHeaderCloned);
 closureAndObjectsHeader.textContent = 'This и прототипы объектов';
+
+const ads = document.querySelector('.ads');
+ads.remove();
